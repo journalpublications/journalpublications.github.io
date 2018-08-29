@@ -96,12 +96,12 @@ img {
     margin-bottom: 0.5em;
 }
 
-hr {
+.header hr {
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    margin-left: 25%; /*figure this out for more sizes*/
-    margin-right: 25%; /*figure this out for more sizes*/
+    margin-left: 39%;
+    margin-right: 39%;
     border-style: solid;
     border-width: 3px;
     color: #cc2732;
