@@ -24,6 +24,11 @@ img {
   margin-right: auto;
 }
 
+a {
+    color: #cc2732;
+    text-decoration: none;
+}
+
 .widthfix{
   min-width: 980px;
 }
