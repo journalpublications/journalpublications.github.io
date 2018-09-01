@@ -1,0 +1,149 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 32pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 21pt;
+    font-weight: normal;
+    margin-top: 0pt;
+    margin-bottom: 30px;
+}
+
+p{
+    font-family:sans-serif;
+}
+
+img {
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.widthfix{
+  min-width: 980px;
+}
+
+.header {
+    width: 980px;
+    margin-top: 15pt;
+    margin-left: : auto;
+    margin-right : auto;
+    margin-bottom: 0pt;
+    width: 100%;
+    text-align: center;
+}
+.header p{
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  font-size: 14pt;-size
+}
+
+.row {
+    width: 980px;
+    margin: auto;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer{
+    width: 980px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    background-color: #fffaaf;
+}
+
+.column {
+    flex: 50%;
+}
+.centercolumn p{
+  text-align: center;
+  font-size: 14pt;
+
+}
+
+.center{
+  text-align: center;
+}
+
+.imgCaption {
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    font-size: 10pt;
+}
+
+.serifcenter{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.serifcenter p{
+    font-family:serif;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.header hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 39%;
+    margin-right: 39%;
+    border-style: solid;
+    border-width: 3px;
+    color: #cc2732;
+}
+
+.centercolumn hr{
+  display: block;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+  margin-left: 25%; /*figure this out for more sizes*/
+  margin-right: 25%; /*figure this out for more sizes*/
+  border-style: solid;
+  border-width: 1px;
+  color: darkgrey;
+}
+.serifcenter hr{
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 25%; /*figure this out for more sizes*/
+  margin-right: 25%; /*figure this out for more sizes*/
+  border-style: solid;
+  border-width: 1px;
+  color: cc2732;
+}
+
+.bodydivide {
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 5%; /*figure this out for more sizes*/
+    margin-right: 25%; /*figure this out for more sizes*/
+    border-style: solid;
+    border-width: 2px;
+    color: #cc2732;
+}
+
+.email{
+  font-size: 18;
+}
