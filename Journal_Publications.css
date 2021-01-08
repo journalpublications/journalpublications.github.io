@@ -1,6 +1,7 @@
 h1 {
     font-family: sans-serif;
     font-size: 32pt;
+    text-align: center;
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
@@ -8,9 +9,18 @@ h1 {
 h2 {
     font-family: sans-serif;
     font-size: 21pt;
+    text-align: center;
     font-weight: normal;
     margin-top: 0pt;
     margin-bottom: 30px;
+}
+h3 {
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 0pt;
+    font-weight: bold;
 }
 
 p{
@@ -58,10 +68,11 @@ a {
 
 .footer{
     width: 980px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     display: flex;
     padding: 50px;
+    padding-left: 120px;
     padding-bottom: 0px;
     padding-top: 20px;
 }
@@ -73,6 +84,13 @@ a {
   text-align: center;
   font-size: 14pt;
 
+}
+
+.pinkbg{
+  background-color: #b66599;
+  color: white;
+  margin-left: 15%; /*figure this out for more sizes*/
+  margin-right: 15%; /*figure this out for more sizes*/
 }
 
 .center{
@@ -133,12 +151,12 @@ a {
 
 .bodydivide {
     display: block;
-    margin-top: 3em;
-    margin-bottom: 2em;
-    margin-left: 5%; /*figure this out for more sizes*/
-    margin-right: 25%; /*figure this out for more sizes*/
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 15%; /*figure this out for more sizes*/
+    margin-right: 15%; /*figure this out for more sizes*/
     border-style: solid;
-    border-width: 6px;
+    border-width: 2px;
     color: #263583;
 }
 
